@@ -33,7 +33,7 @@ services:
        MYSQL_USER: 'wordpress'
        MYSQL_PASSWORD: 'wordpress'
      ports:
-      - 3306:3006
+      - 3306:3306
     volumes:
        - data/MySQL:/var/lib/mysql
 
